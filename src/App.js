@@ -1,22 +1,12 @@
 import Navbar from "./Component/Navbar";
-import Carousel from "./Component/Carousel";
-import Card from "./Component/Card";
 import Footer from "./Component/Footer";
-import CardH from "./Component/CardH";
+import HomeBody from "./Component/HomeBody";
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Carousel/>
-      <br/>
-      <Card/>
-      <br/>
-      <CardH/>
-      <br/>
-      <Card/>
-      <br/>
-      <Card/>
+      <HomeBody/>
       <Footer/>
     </div>
   );

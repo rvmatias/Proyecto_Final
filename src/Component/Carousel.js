@@ -10,13 +10,13 @@ function Carousel() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="https://recursos-webexport.s3.amazonaws.com/Weyop/MARCANTONIO%20DEPORTES/Store/Slider/1657640075_R2FybWlu.webp" className="d-block w-100" alt="./Img/reyes1.jpg" />
+                    <img src="https://static6.ticketek.com.ar/cms_static/sites/default/files/images/show-header/wos960.png" className="d-block w-100" alt="./Img/reyes1.jpg" />
                 </div>
                 <div className="carousel-item">
-                    <img src="https://recursos-webexport.s3.amazonaws.com/Weyop/MARCANTONIO%20DEPORTES/Store/Slider/1657640154_QSBOYXRpb24%3D.webp" className="d-block w-100" alt="./Img/reyes2.jpg" />
+                    <img src="https://static6.ticketek.com.ar/cms_static/sites/default/files/images/show-header/divi960.png" className="d-block w-100" alt="./Img/reyes2.jpg" />
                 </div>
                 <div className="carousel-item">
-                    <img src="https://recursos-webexport.s3.amazonaws.com/Weyop/MARCANTONIO%20DEPORTES/Store/Slider/1669132119_YmxhY2sgZnJpZGF5IC0gMyBDdW90YXM%3D.webp" className="d-block w-100" alt="./Img/reyes3.jpg" />
+                    <img src="https://static6.ticketek.com.ar/cms_static/sites/default/files/images/show-header/960x400_ticketek.png" className="d-block w-100" alt="./Img/reyes3.jpg" />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

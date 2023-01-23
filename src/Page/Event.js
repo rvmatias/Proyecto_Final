@@ -2,15 +2,11 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 
- function QuienesSomos() {
+function Event () {
     return(
         <>
         <Navbar/>
-        <p>quienes somos</p>
         <Footer/>
         </>
-        
-    );
-
-};
-
+    )
+}
