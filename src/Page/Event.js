@@ -1,14 +1,17 @@
 
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import Card from "../Component/Card";
 
-function Event () {
-    return(
+
+
+function Event() {
+    return (
         <>
-        <Navbar/>
-        <h1>Detalles del evento</h1>
-        <Footer/>
+            <Navbar />
+            <Card />
+            <Footer />
         </>
     )
 }
- export default Event;
+export default Event;
