@@ -1,16 +1,15 @@
 import Navbar from "../Component/Navbar";
-import HomeBody from "../Component/HomeBody";
 import Footer from "../Component/Footer";
 
-
-function HomePage () {
+function Ingresar () {
     return(
-        <div>
+        <>
             <Navbar/>
-            <HomeBody/>
+            <p>login</p>
             <Footer/>
-        </div>
+        </>
     );
-}
+};
 
-export default HomePage;
+
+export default Ingresar;

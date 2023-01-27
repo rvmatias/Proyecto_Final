@@ -2,6 +2,7 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import Card from "../Component/Card";
+import SectionBody from "../Component/SectionBody";
 
 
 
@@ -10,6 +11,7 @@ function Event() {
         <>
             <Navbar />
             <Card />
+            <SectionBody/>
             <Footer />
         </>
     )
