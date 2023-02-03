@@ -1,6 +1,7 @@
 
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import Contacto from "../Component/Contacto";
 
 
 
@@ -8,7 +9,7 @@ function ContactPage () {
     return(
     <>
     <Navbar/>
-    <p>aqui debe ir el formulario de contacto</p>
+    <Contacto/>
     <Footer/>
     </>
     );

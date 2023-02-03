@@ -1,12 +1,11 @@
+import shows from "./Funciones/Shows";
 
-import Shows from '../Component/Funciones/Shows'
-
-function SectionBody () {
-    return(
+function SectionBody() {
+    return (
         <>
-        <Shows/>
+        <Shows />
         </>
-        )
-    };
+    )
+};
 
 export default SectionBody;
