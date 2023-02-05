@@ -1,11 +1,12 @@
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import LoginPage from "../Component/Funciones/Login";
 
 function Ingresar () {
     return(
         <>
             <Navbar/>
-            <p>login</p>
+            <LoginPage/>
             <Footer/>
         </>
     );

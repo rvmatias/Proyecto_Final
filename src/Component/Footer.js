@@ -45,7 +45,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <p>© PUMA Todos los derechos reservados, 2022</p>
+        <p> ©Todos los derechos reservados, 2022 </p>
         </div>
     )
 
