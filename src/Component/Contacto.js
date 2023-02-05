@@ -11,30 +11,31 @@ function Contacto() {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
-                                        <input type="text" id="name" name="name" className="form-control" />
-                                        <label for="name" className="">Your name</label>
+                                        <input type="text" id="name" name="name"  placeholder="Nombre"  className="form-control" />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
-                                        <input type="text" id="email" name="email" className="form-control" />
-                                        <label for="email" className="">Your email</label>
+                                       
+                                        <input type="text" id="email" name="email" placeholder="email" className="form-control" />
+                                        <br/>
+                                
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" className="form-control" />
-                                        <label for="subject" className="">Subject</label>
+                                        <input type="text" id="subject" name="subject" placeholder="Asunto" className="form-control" />
+                                        <br/>
+                                    
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="md-form">
-                                        <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                                        <label for="message">Your message</label>
+                                        <textarea type="text" id="message" name="message" rows="2" placeholder="Tu mensaje "className="form-control md-textarea"></textarea>
                                     </div>
                                 </div>
                             </div>
