@@ -1,13 +1,17 @@
 
-
+import { Link } from "react-router-dom";
 
 function Card() {
     return (
+        <>
+        <Link to="/event">
         <div className="card text-bg-dark">
             <img src= "" className="card-img" alt="..." />
             <div className="card-img-overlay">
             </div>
         </div>
+        </Link>
+        </>
     )
 }
 

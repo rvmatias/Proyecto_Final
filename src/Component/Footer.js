@@ -11,7 +11,6 @@ function Footer() {
             </div>
             <div className="card">
                 <div className="card-body">
-                    <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <ul>
                         <Link className="nav-link active" to= "/contacto">Quienes Somos</Link>
                         <Link className="nav-link active" to= "/event">Eventos</Link>

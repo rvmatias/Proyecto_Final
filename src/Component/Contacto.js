@@ -19,7 +19,6 @@ function Contacto() {
                                        
                                         <input type="text" id="email" name="email" placeholder="email" className="form-control" />
                                         <br/>
-                                
                                     </div>
                                 </div>
                             </div>
@@ -28,7 +27,6 @@ function Contacto() {
                                     <div className="md-form mb-0">
                                         <input type="text" id="subject" name="subject" placeholder="Asunto" className="form-control" />
                                         <br/>
-                                    
                                     </div>
                                 </div>
                             </div>
@@ -40,18 +38,19 @@ function Contacto() {
                                 </div>
                             </div>
                         </form>
+                        <br/>
                         <div className="text-center text-md-left">
-                            <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
                         </div>
                         <div className="status"></div>
                     </div>
                     <div className="col-md-3 text-center">
                         <ul className="list-unstyled mb-0">
                             <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                                <p>San Francisco, CA 94126, USA</p>
+                                <p>Av. Comodoro Py 2002, C1104, Buenos Aires</p>
                             </li>
                             <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                                <p>+ 01 234 567 89</p>
+                                <p>+54 11 4344-3600</p>
                             </li>
                             <li><i className="fas fa-envelope mt-4 fa-2x"></i>
                                 <p>contact@mdbootstrap.com</p>

@@ -2,6 +2,8 @@
 
 function Carousel() {
     return (
+        <>
+        
         <div id="carouselExampleIndicators" className="carousel slide">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -28,6 +30,8 @@ function Carousel() {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
+    
+        </>
     )
 }
 
