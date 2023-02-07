@@ -6,10 +6,11 @@ import Cards from "../Component/Cards";
 
 
 function Event() {
+    const imgUrl_2="https://www.tuentrada.com/images/63bdbf8a85ef6.webp"
     return (
         <>
             <Navbar />
-            <Card />
+            <Card img = {imgUrl_2}/>
             <br/>
             <Cards/>
             <br/>
