@@ -5,7 +5,7 @@ import Card from "../Component/Card";
 import Cards from "../Component/Cards";
 
 
-function Event() {
+function Events() {
     const imgUrl_2="https://www.tuentrada.com/images/63bdbf8a85ef6.webp"
     return (
         <>
@@ -21,4 +21,4 @@ function Event() {
         </>
     )
 }
-export default Event;
+export default Events;
