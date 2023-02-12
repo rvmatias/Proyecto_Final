@@ -43,7 +43,7 @@ const Login = () => {
                     <p>¿No tienes una cuenta? <Link to ="/registro">Registrate ahora</Link></p>
                     <div className="form-group mt-3">
                         <label>Email</label>
-                        <input type="email" className="form-control mt-1" placeholder="Email" name="email" value={formValues.email} onChange={handleChange}/>
+                        <input type="email" className="form-control mt-1" placeholder="example@gmail.com" name="email" value={formValues.email} onChange={handleChange}/>
                     </div>
                     <div className="form-group mt-3">
                         <label>Contraseña</label>
