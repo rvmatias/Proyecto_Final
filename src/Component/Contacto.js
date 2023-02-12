@@ -40,7 +40,7 @@ function Contacto() {
                         </form>
                         <br/>
                         <div className="text-center text-md-left">
-                            <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                            <a className="btn btn-primary">Enviar</a>
                         </div>
                         <div className="status"></div>
                     </div>
@@ -53,7 +53,7 @@ function Contacto() {
                                 <p>+54 11 4344-3600</p>
                             </li>
                             <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                                <p>contact@mdbootstrap.com</p>
+                                <p>contacto@gmail.com</p>
                             </li>
                         </ul>
                     </div>
